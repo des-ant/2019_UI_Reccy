@@ -303,8 +303,8 @@ article p {
 	max-width: 800px;
 }
 #final-concept-p {
-	padding:0 0px;
-	margin-right: 40px;
+	padding: 0;
+	/* max-width: 500px; */
 }
 
 article ol {
@@ -646,6 +646,7 @@ h5 {
 	text-align: center;
 }
 #final-c-h2{
+	margin-top: var(--space-xs);
 	margin-bottom: 0px;
 }
 
@@ -765,6 +766,24 @@ blockquote {
 	font-style: italic;
 	color: white;
 	background-color: #7AC043;
+}
+
+/* Final concept container */
+.final-c-div {
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
+
+.final-c-figure {
+	margin-bottom: 0;
+}
+
+.final-c-img {
+	width: 300px;
 }
 
 /* --------------------------------
@@ -996,6 +1015,9 @@ Responsive
 		transform: scale(0);
 	}
 
+	.final-c-div {
+		flex-direction: column;
+	}
 
 }
 
@@ -1111,3 +1133,4 @@ Responsive
 	height: 50px;
 	margin-bottom: 0;
 }
+
