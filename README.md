@@ -1,6 +1,7 @@
 # Reccy Interaction Design Project
 
-![Reccy Banner](https://raw.githubusercontent.com/des-ant/2019_UI_Reccy/master/img/banner.png "Reccy")
+[![Reccy Banner](https://raw.githubusercontent.com/des-ant/2019_UI_Reccy/master/img/banner.png)](https://des-ant.github.io/2019_UI_Reccy/index.html
+"Reccy Project")
 
 **Project Brief**: To investigate and improve the waste management of residents in Sydney, discovering any common misconceptions and understanding the status quo of the sector.
 
