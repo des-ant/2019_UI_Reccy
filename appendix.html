@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!-- Meta tags -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="designer" content="Rob Dongas; Anthony Yip">
+   <!-- Required imported CSS files -->
+   <link rel="stylesheet" href="css/reset.css" />
+   <!-- Main CSS file -->
+   <link rel="stylesheet" href="css/styles.css" />
+
+   <!-- Title -->
+   <title>Interaction Design Studio</title>
+</head>
+
+
+
+<body class="container" id="top">
+
+   <!-- Make your modifications below -->
+   <header>
+      <div class="header-container">
+         <h1>Reccy</h1>
+      </div>
+      <!-- <nav>
+         <input type="checkbox" id="toggle" checked>
+         <label for="toggle" class="nav-toggle">
+            <div class="nav-icon"></div>
+         </label>
+         <ul>
+            <li>
+               <a href="about.html">About</a>
+            </li>
+            <li>
+               <a href="task1.html">Task 1</a>
+            </li>
+            <li>
+               <a href="task2.html">Task 2</a>
+            </li>
+            <li class="active">
+               <a href="task3.html">Task 3</a>
+            </li>
+         </ul>
+      </nav> -->
+   </header>
+
+
+   <main>
+      <article>
+
+         <!-- Make your content modifications below -->
+         <!-- Section for the top banner heading -->
+         <section class="title-container">
+            <h1 id="title">Reccy Appendix</h1>
+            <p>Completed by A.M.N| 12 August 2019</p>
+            <div class="center-container">
+               <a class="button" href="index.html">
+
+                  <svg class="icon-arrow-left">
+                     <use xlink:href="#arrow"></use>
+                  </svg>
+                  <span class="label">Main Page</span>
+               </a>
+            </div>
+            <span class="separator"></span>
+         </section>
+
+         <!-- Body section with additional heading elements -->
+         <section class="content-container">
+            <h1 id="concrete-tasks">User Concrete Tasks</h1>
+            <h4>Version 1</h4>
+            <div class="images">
+              <img class="disp1" src="img/concrete-tasks1.png" alt="Concrete Tasks 1" width="1000px">
+            </div>
+            <h4>Version 2</h4>
+            <div class="images">
+              <img class="disp1" src="img/tasks2.png" alt="Concrete Tasks 2" width="1000px">
+            </div>
+            <h1 id="paper-think">Paper Prototype Think Alouds</h1>
+            <div class="Aligner">
+              <a class="button aligner-item" href="img/paper-prototype.pdf" download >Download Think-Alouds Paper Prototype</a>
+            </div>
+            <h4></br>Think-Aloud Summary</h4>
+            <div class="images">
+              <img class="disp1" src="img/think-sum1.png" alt="Think alouds" width="800px">
+              <img class="disp1" src="img/think-sum2.png" alt="Think alouds" width="800px">
+            </div>
+            <h1 id="v2-think">Medium Fidelity Version 2 Think Alouds</h1>
+            <div class="Aligner">
+              <a class="button aligner-item" href="img/think-v2.pdf" download >Download Think-Alouds Version 2</a>
+            </div>
+            <h4></br>Think-Aloud Summary</h4>
+            <div class="images">
+              <img class="disp1" src="img/think-sum3.png" alt="Think alouds" width="800px">
+            </div>
+            <h1 id="v2-think">Medium Fidelity Version 3 Think Alouds</h1>
+            <div class="Aligner">
+              <a class="button aligner-item" href="img/think-v3.pdf" download >Download Think-Alouds Version 3</a>
+            </div>
+            <h4></br>Think-Aloud Summary</h4>
+            <div class="images">
+              <img class="disp1" src="img/think-sum4.png" alt="Think alouds" width="800px">
+            </div>
+            <h1 id="heuristics">Heuristic Evalution</h1>
+            <div class="images">
+              <img class="disp1" src="img/evalution.png" alt="Heuristic Evalution" width="800px">
+            </div>
+
+         </section>
+
+
+
+
+
+
+      </article>
+   </main>
+
+
+
+   <!-- DO NOT modify the following code -->
+   <footer>
+      <a href="#top">
+         <svg class="icon-arrow-up">
+            <use xlink:href="#arrow"></use>
+         </svg>Back to top</a>
+      <div class="logo-container"><img src="img/USydLogo.svg" /></div>
+      <svg style="display: none;">
+         <defs>
+            <symbol id="arrow" viewBox="0 0 35 15">
+               <title>Arrow</title>
+               <path d="M27.172 5L25 2.828 27.828 0 34.9 7.071l-7.07 7.071L25 11.314 27.314 9H0V5h27.172z " />
+            </symbol>
+         </defs>
+      </svg>
+   </footer>
+
+
+   <!-- Required imported js -->
+   <script src="js/scrollmenu.js"></script>
+   <script type="text/javascript">
+      new ScrollMenu('.aside-container a[href*="#"]', {
+         duration: 500,
+         activeOffset: 100,
+      })
+      new ScrollMenu('footer a[href*="#"], .content-container a[href*="#"]', {
+         duration: 500,
+      })
+   </script>
+
+
+
+</body>
+
+</html>
