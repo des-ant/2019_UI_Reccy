@@ -82,7 +82,8 @@ header {
 	max-width: 1200px;
 }
 .banner img {
-	max-width:1200px
+	/* max-width:1200px */
+	max-width: 100%;
 }
 
 .images {
@@ -786,6 +787,16 @@ blockquote {
 	width: 300px;
 }
 
+/* Add margin below image to prevent banner overlap */
+.mb-img {
+	margin-bottom: 50px;
+}
+
+/* Add margin below div to prevent banner overlap */
+.mb-div {
+	padding-bottom: 10px;
+}
+
 /* --------------------------------
 Responsive
 -------------------------------- */
@@ -1019,6 +1030,16 @@ Responsive
 		flex-direction: column;
 	}
 
+	/* Add margin below image to prevent banner overlap */
+	.mb-img {
+		margin-bottom: 150px;
+	}
+
+	/* Add margin below div to prevent banner overlap */
+	.mb-div {
+		padding-bottom: 150px;
+	}
+
 }
 
 @media (min-width: 761px) and (max-width: 1500px) {
@@ -1134,3 +1155,7 @@ Responsive
 	margin-bottom: 0;
 }
 
+/* Responsive images */
+.disp1 {
+	max-width: 100%;
+}
