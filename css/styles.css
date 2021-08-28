@@ -797,9 +797,30 @@ blockquote {
 	padding-bottom: 10px;
 }
 
+/* Responsive images */
+.disp1 {
+	max-width: 100%;
+	align-self: center;
+}
+
+.img-col {
+	max-width: 768px;
+	padding: 0 var(--space-sm);
+}
+
+.img-col-2 {
+	max-width: 900px;
+}
+
 /* --------------------------------
 Responsive
 -------------------------------- */
+
+@media (max-width: 900px) {
+	.img-col-2 {
+		max-width: 768px;
+	}
+}
 
 @media (max-width: 768px) {
 
@@ -1040,6 +1061,15 @@ Responsive
 		padding-bottom: 150px;
 	}
 
+	/* Responsive images */
+	.img-col, .img-col-2 {
+		max-width: 100%;
+	}
+
+	.images {
+		max-width: 700px;
+	}
+
 }
 
 @media (min-width: 761px) and (max-width: 1500px) {
@@ -1153,10 +1183,4 @@ Responsive
 .svg-icons {
 	height: 50px;
 	margin-bottom: 0;
-}
-
-/* Responsive images */
-.disp1 {
-	max-width: 100%;
-	align-self: center;
 }
