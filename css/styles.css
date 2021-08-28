@@ -1158,4 +1158,5 @@ Responsive
 /* Responsive images */
 .disp1 {
 	max-width: 100%;
+	align-self: center;
 }
