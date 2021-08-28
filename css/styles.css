@@ -269,7 +269,7 @@ aside ol li, .collapsible  {
 	font-size: 0.8em;
 }
 
-aside a.active  {
+aside a.active {
 	font-weight: 600;
 	color: #7AC043;
 }
@@ -295,8 +295,6 @@ header a:hover {
 article a {
 	color: #369;
 }
-
-
 
 article p {
 	padding: 0 65px;
